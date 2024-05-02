@@ -2,7 +2,9 @@
 
 I always forget what I've learned.
 
-## Software Security
+## Security Courses
+
+### Software Security
 
 - Shellcode Injection
 - ROP
@@ -11,7 +13,27 @@ I always forget what I've learned.
 - ASLR Bypasses
 - Automatic exploits generation
 
-## Dynamic Programming and Reinforcement Learning
+### Network Security
+
+TODO
+
+
+### Binary and Malware Analysis
+
+TODO
+
+### Cryptographic Engineering
+
+TODO
+
+
+## CS Courses
+
+### Programming Large-Scale Parallel Systems
+
+TODO
+
+### Dynamic Programming and Reinforcement Learning
 
 - Finite Horizon
 - Dynamic Programming
@@ -30,4 +52,18 @@ I always forget what I've learned.
 - Deep Learning
 - Q-Learning
 - Policy Gradient methods
+
+### Distributed Algorithms
+
+TODO
+
+## Research Oriented Courses
+
+### Security and Machine Learning
+
+TODO
+
+### Systems Seminar
+
+TODO
 
