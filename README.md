@@ -15,8 +15,51 @@ I always forget what I've learned.
 
 ### Network Security
 
-TODO
+- TCP attacks:
+  + Sniffing
+  + Spoofing (on-path, off-path)
+  + Joncheray-style hijacking
+- DoS attacks:
+  + Fragmentation
+  + SYN flooding
+  + Botnets
+  + Amplifiers
+  + Detection (Sketches)
+- DNS attacks:
+  + Simple (kaminsky, birthday attack)
+  + Advanced
+- DNS enhancements:
+  + DNSSEC
+  + DoH
+  + ODNS
+  + Paged DNS
+- Certificates:
+  + PKI
+  + TLS
+  + Certificates types
+  + Certificates validation and revocation
+  + CT Logs
+- CDN
+- BGP:
+  + Prefix hijacking
+  + IRR
+  + RPKI
+  + Spoofing and filtering strategies
+- Censorship:
+  + GFW
+  + Evasion (Geneva, VPNs)
 
+- Most interesting papers:
+  + Off-Path TCP Exploits: Global Rate Limit Considered Dangerous
+  + Off-Path TCP Exploits of the Mixed IPID Assignment
+  + DNS Cache Poisoning Attack Reloaded: Revolutions with Side Channels
+  + DNS Cache Poisoning Attack: Resurrections with Side Channel
+  + DNS Cache Poisoning Attack Reloaded: Revolutions with Side Channels
+  + How Great is the Great Firewall? Measuring China’s DNS Censorship
+  + Weaponizing Middleboxes for TCP Reflected Amplification
+  + Detection, Classification, and Analysis of Inter-Domain Traffic with Spoofed Source IP Addresses
+  + An End-to-End Measurement of Certificate Revocation in the Web’s PKI
+  + Geneva: Evolving Censorship Evasion Strategies
 
 ### Binary and Malware Analysis
 
