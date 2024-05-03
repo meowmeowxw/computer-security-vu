@@ -8,12 +8,48 @@ I always forget what I've learned.
 
 <details>
 <summary>Content:</summary>
-- Shellcode Injection
-- ROP
-- Blind ROP
-- Glibc Heap Exploitation
-- ASLR Bypasses
-- Automatic exploits generation
+
+- Vulnerabilities and Attacks:
+  + Buffer overflow
+  + Integer overflow
+  + Uninitialized variables
+  + C++ Type Confusion
+  + Format strings
+  + Shellcode injection
+  + ROP
+  + Blind ROP
+  + DOP
+  + Use After Free
+  + Double Free
+- Defenses:
+  + Canary
+  + DEP
+  + ASLR
+  + Shadow Stack
+  + CFI 
+- Web Security:
+  + Session fixation
+  + XXS, CSRF
+  + SSRF, XXE
+  + HTTP request Smuggling
+  + SQLI
+  + Type juggling
+  + Command injection
+  + SOP, CSP, CORS
+- Automatic Exploits Generation:
+  + Fuzzing (Generation, Mutational)
+  + Kernel exploits with Spectre
+  + Sanitizers (ASan, TSan, UBSan, ...)
+
+Most interesting papers:
+
+- Unwinding The Stack For Fun and Profit
+- The Dynamics of Innocent Flesh on the Bone: Code Reuse Ten Years Later
+- DangZero: Efficient Use-After-Free Detection via Direct Page Table Access
+- FloatZone: Accelerating Memory Error Detection using the Floating Point Unit
+- Speculative Probing: Hacking Blind in the Spectre Era
+- Hacking Blind
+
 </details>
 
 ### Network Security
