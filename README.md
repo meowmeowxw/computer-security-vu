@@ -72,8 +72,45 @@ TODO
 
 ### Cryptographic Engineering
 
-TODO
+<details>
+<summary>Content:</summary>
 
+- Mathematics:
+  + GCD, XGCD, inverse
+  + Groups, Rings, Galois Fields
+- RISC-V ISA
+- Software Optimizations:
+  + AES Tbox
+  + Multiprecision arithmetic
+  + Bitslicing
+- Hardware Design:
+  + Flow (Synthesis, Simulation, Place & Route)
+  + Optimizations:
+    * Area
+    * Energy
+    * Scan Registers
+- Hardware Attacks:
+  + Cache timing
+  + Power Analysis (CPA)
+  + Templates
+  + Fault injection
+  + Information Theory (Entropy, mutual information)
+  + Countermeasures:
+    * Masking (Boolean with ISW)
+    * Hiding (WDDL, MDPL)
+    * Time, space, information redundancy
+- PUFs
+
+</details>
+
+Most interesting papers:
+  + Atomic-AES: A Compact Implementation of the AES Encryption/Decryption Core
+  + Pushing the Limits: A Very Compact and a Threshold Implementation of AES
+  + Midori: A Block Cipher for Low Energy
+  + Cache-timing attacks on AES
+  + Correlation Power Analysis with a Leakage Mode
+  + Efficient Template Attacks
+  + Differential Fault Analysis on A.E.S
 
 ## CS Courses
 
