@@ -15,6 +15,9 @@ I always forget what I've learned.
 
 ### Network Security
 
+<details>
+<summary>Content:</summary>
+
 - TCP attacks:
   + Sniffing
   + Spoofing (on-path, off-path)
@@ -26,18 +29,18 @@ I always forget what I've learned.
   + Amplifiers
   + Detection (Sketches)
 - DNS attacks:
-  + Simple (kaminsky, birthday attack)
+  + Simple (Kaminsky, Birthday attack)
   + Advanced
 - DNS enhancements:
   + DNSSEC
   + DoH
   + ODNS
   + Paged DNS
-- Certificates:
-  + PKI
-  + TLS
+- PKI:
+  + Certificates
   + Certificates types
   + Certificates validation and revocation
+  + TLS
   + CT Logs
 - CDN
 - BGP:
@@ -49,7 +52,9 @@ I always forget what I've learned.
   + GFW
   + Evasion (Geneva, VPNs)
 
-- Most interesting papers:
+</details>
+
+Most interesting papers:
   + Off-Path TCP Exploits: Global Rate Limit Considered Dangerous
   + Off-Path TCP Exploits of the Mixed IPID Assignment
   + DNS Cache Poisoning Attack Reloaded: Revolutions with Side Channels
