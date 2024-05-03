@@ -6,12 +6,15 @@ I always forget what I've learned.
 
 ### Software Security
 
+<details>
+<summary>Content:</summary>
 - Shellcode Injection
 - ROP
 - Blind ROP
 - Glibc Heap Exploitation
 - ASLR Bypasses
 - Automatic exploits generation
+</details>
 
 ### Network Security
 
@@ -68,7 +71,9 @@ Most interesting papers:
 
 ### Binary and Malware Analysis
 
-TODO
+<details>
+<summary>TODO:</summary>
+</details>
 
 ### Cryptographic Engineering
 
@@ -198,16 +203,22 @@ Ethics And Morality in Security and AI:
 
 ### Systems Seminar
 
-TODO
+<details>
+<summary>TODO:</summary>
+</details>
 
 ## CS Courses
 
 ### Programming Large-Scale Parallel Systems
 
-TODO
+<details>
+<summary>TODO:</summary>
+</details>
 
 ### Dynamic Programming and Reinforcement Learning
 
+<details>
+<summary>Content:</summary>
 - Finite Horizon
 - Dynamic Programming
 - Bellman-Ford
@@ -225,8 +236,11 @@ TODO
 - Deep Learning
 - Q-Learning
 - Policy Gradient methods
+</details>
 
 ### Distributed Algorithms
 
-TODO
+<details>
+<summary>TODO:</summary>
+</details>
 
