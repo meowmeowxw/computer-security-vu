@@ -248,13 +248,43 @@ Ethics And Morality in Security and AI:
 ### Programming Large-Scale Parallel Systems
 
 <details>
-<summary>TODO:</summary>
+<summary>Content:</summary>
+
+- Processors Topologies (Mesh, Tree, Hypercube)
+- Parallel Machines (Processor arrays, GPUs, NUMA, DSM)
+- Parallel Algorithms:
+  + Matrix Multiplication
+  + Successive Over Relaxation
+  + All-pairs Shorts Paths
+  + Solving Linear Equations (Jacobi, Gaussian)
+  + Solving Partial Differential Equations (Conjucate gradient method)
+  + Traveling Salesperson Problem
+  + Barnes-Hut (with Cost model and Costzones)
+  + Transposition Driven Scheduling
+- Performance Metrics:
+  + Linear, Super linear speedup
+  + Amdahl's Law
+  + Weak and Strong scalability
+- MPI:
+  + Sync/Async
+  + Buffered/Unbuffered
+  + Ready
+  + Blocking/Non-Blocking
+  + Global Operations (Barrier, Bcast, Gather, Scatter, Reduce)
+- Julia:
+  + Tasks
+  + Sync/Async
+  + Channels
+  + Distributed computing (Workers, Remote channels, Spawn/Fetch)
+  + MPI.jl
+
 </details>
 
 ### Dynamic Programming and Reinforcement Learning
 
 <details>
 <summary>Content:</summary>
+
 - Finite Horizon
 - Dynamic Programming
 - Bellman-Ford
