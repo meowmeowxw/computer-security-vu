@@ -285,23 +285,41 @@ Ethics And Morality in Security and AI:
 <details>
 <summary>Content:</summary>
 
-- Finite Horizon
-- Dynamic Programming
-- Bellman-Ford
-- Knapsack
-- Stochastic Knapsack
-- Revenue Management
-- Markov Chains
-- Poisson and Bellman Equations
-- Discounting
-- Semi-Markov Process
-- Exploration Policies (Thompson Sampling, greedy)
-- Gittins Index
-- Contextual bandits
+- Key concepts:
+  + Reward
+  + State
+  + Markov property
+  + Policies
+  + Transistions
+- Dynamic Programming:
+  + Shortest path
+  + Inventory control
+  + Knapsack
+  + Stochastic settings (Knapsack, Inventory control, Revenue Management)
+- Markov chains:
+  + Communicating path
+  + Period
+  + Time-average
+  + Limit and Stationary distribution
+  + Poisson equation
+- Markov decision chains:
+  + Policy iteration
+  + Value iteration
+  + Bellman Equation
+  + Q-Values
+  + Discounted rewards
+- Continuos time and Markov processes
+- Bandits:
+  + Gittins index
+  + Stateless bandits and Bayesian framework
+  + Exploration policies and Thompson sampling
+  + Contextual bandits
 - Monte-Carlo Tree Search
+- Reinforcement Learning
 - Deep Learning
 - Q-Learning
 - Policy Gradient methods
+
 </details>
 
 ### Distributed Algorithms
