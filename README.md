@@ -59,7 +59,7 @@ Most interesting papers:
 
 - TCP attacks:
   + Sniffing
-  + Spoofing (on-path, off-path)
+  + Spoofing (On-path, Off-path)
   + Joncheray-style hijacking
 - DoS attacks:
   + Fragmentation
@@ -345,6 +345,30 @@ Ethics And Morality in Security and AI:
 ### Distributed Algorithms
 
 <details>
-<summary>TODO:</summary>
+<summary>Content:</summary>
+
+- Logical clocks (Lamport's, Vector)
+- Snapshots:
+  + Chandy-Lamport (FIFO)
+  + Lai-Yang
+- Wave:
+  + Traversal (Tarry, DFS, Awerbuch, Cidon)
+  + Echo
+  + Tree
+- Deadlock detection (Bracha-Toueg)
+- Termination detection:
+  + Dijkstra-Scholten, Shavit-Francesz, Rana, Safra
+  + Weight Throwing
+- Distributed garbage collection:
+  + Reference counting (indirect, weighted)
+  + Tracing (mark-scan)
+- Routing (TODO)
+- Election algorithms:
+  + Ring (Chang-Roberts, Franklin, Dolev-Klawe-Rodeh)
+  + Tree 
+  + Echo with extinction
+  + MST (Gallager-Humblet-Spira)
+
+
 </details>
 
