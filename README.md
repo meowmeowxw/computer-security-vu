@@ -96,7 +96,6 @@ Most interesting papers:
   + Off-Path TCP Exploits of the Mixed IPID Assignment
   + DNS Cache Poisoning Attack Reloaded: Revolutions with Side Channels
   + DNS Cache Poisoning Attack: Resurrections with Side Channel
-  + DNS Cache Poisoning Attack Reloaded: Revolutions with Side Channels
   + How Great is the Great Firewall? Measuring China’s DNS Censorship
   + Weaponizing Middleboxes for TCP Reflected Amplification
   + Detection, Classification, and Analysis of Inter-Domain Traffic with Spoofed Source IP Addresses
