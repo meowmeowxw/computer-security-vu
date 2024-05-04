@@ -108,7 +108,17 @@ Most interesting papers:
 ### Binary and Malware Analysis
 
 <details>
-<summary>TODO:</summary>
+<summary>Content:</summary>
+
+- Dynamically linked ELF (with glibc) execution flow
+- Anti-Analysis techniques:
+  + Anti-debugging
+  + Anti-VM
+  + Anti-disassembly (Return address patching, Opaque predicates)
+  + Obfuscation
+  + Packers
+- PIN framework
+- Dynamic Taint Analysis
 </details>
 
 ### Cryptographic Engineering
@@ -240,7 +250,18 @@ Ethics And Morality in Security and AI:
 ### Systems Seminar
 
 <details>
-<summary>TODO:</summary>
+<summary>Content:</summary>
+
+- Reviewed papers:
+   + Hello Bytes, Bye Blocks: PCIe Storage Meets Compute Express Link for Memory Expansion
+   + Direct Access, High-Performance Memory Disaggregation with DirectCXL
+   + Hybrid Execution: Combining Ahead-of-Time and Just-in-Time Compilation, VMIL
+   + A Distributed and Hybrid Ground Station Network for Low Earth Orbit Satellites
+   + Tango or Square Dance? How Tightly Should we Integrate Network Functionality in Browsers?
+   + Sidecar: In-Network Performance Enhancements in the Age of Paranoid Transport Protocols
+- Artifact evaluation:
+   + Risotto: A Dynamic Binary Translator for Weak Memory Model Architectures
+
 </details>
 
 ## CS Courses
