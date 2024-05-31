@@ -118,6 +118,11 @@ Most interesting papers:
   + Packers
 - PIN framework
 - Dynamic Taint Analysis
+- Static analysis automation
+- Automatic data structure recovery
+- Symbolic execution
+- Lifters
+
 </details>
 
 ### Cryptographic Engineering
@@ -360,15 +365,44 @@ Ethics And Morality in Security and AI:
   + Dijkstra-Scholten, Shavit-Francesz, Rana, Safra
   + Weight Throwing
 - Distributed garbage collection:
-  + Reference counting (indirect, weighted)
+  + Reference counting (indirected, weighted)
   + Tracing (mark-scan)
-- Routing (TODO)
+- Routing:
+  + Chandy-Misra
+  + Merlin-Segall
+  + Toueg's
 - Election algorithms:
   + Ring (Chang-Roberts, Franklin, Dolev-Klawe-Rodeh)
   + Tree 
   + Echo with extinction
   + MST (Gallager-Humblet-Spira)
-
+- Anonymous networks:
+  + Itai-Rodeh
+  + Echo with extinction
+  + Itai-Rodeh Ring Size
+- Consensus with fault tolerance:
+  + Bracha-Toueg
+  + Chandra-Toueg
+- Mutual Exclusion algorithms:
+  + Ricart-Agrawala
+  + Raymond's
+  + Agrawal-El Abbadi
+- Self-stabliziation (Dijkstra's token ring, Afek-Kutten-Yung)
+- Dynamic networks:
+  + Chord ring
+  + AODV routing
+  + Walter-Welch-Vaidya
+- Rollback recovery (Peterson-Kearns)
+- Distributed transactions:
+  + Two-phase locking
+  + Time stamps
+  + Optimistic concurrency control
+  + Two- and Three-phase commit.
+- Security:
+  + Kerberos
+  + Key Exchange (Diffie-Hellman, BB84)
+  + Digital signatures (Lamport, Winterniz, Merkle)
+  + Bitcoin
 
 </details>
 
