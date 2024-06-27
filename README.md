@@ -1,7 +1,5 @@
 # VU Amsterdam - Computer Security
 
-I always forget what I've learned.
-
 ## Security Courses
 
 ### Software Security
