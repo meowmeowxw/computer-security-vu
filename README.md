@@ -166,6 +166,25 @@ Most interesting papers:
 
 </details>
 
+### Project Systems Testing
+
+<details>
+<summary>Content:</summary>
+
+Project:
+
+ - Implemented `IJON {SET(), MAX()}` for AFL++ in Frida Mode in a scriptable and flexible way.
+ - Evaluated the fuzzer using similar examples present in the original IJON paper.
+ - Found simple and effective ways to adapt our solution to real world examples (State Transition List).
+ - Proposed new improvements to our solution (Separate coverage and state map).
+
+Papers:
+  - IJON: Exploring Deep State Spaces via Fuzzing
+  - Stateful Greybox Fuzzing (SGFuzz)
+  - Fuzzers for Stateful Systems: Survey and Research Directions
+
+</details>
+
 ## Research Oriented Courses
 
 ### Security and Machine Learning
