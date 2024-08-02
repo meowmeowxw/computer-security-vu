@@ -19,6 +19,7 @@
   + DOP
   + Use After Free
   + Double Free
+  + Kernel exploits with Spectre
 - Defenses:
   + Canary
   + DEP
@@ -34,10 +35,12 @@
   + Type juggling
   + Command injection
   + SOP, CSP, CORS
-- Automatic Exploits Generation:
+- Advanced Topics:
+  + Automatic Exploit Generation
   + Fuzzing (Generation, Mutational)
-  + Kernel exploits with Spectre
   + Sanitizers (ASan, TSan, UBSan, ...)
+
+Practical assignments on the topics seen during the lectures.
 
 Most interesting papers:
 
@@ -89,6 +92,10 @@ Most interesting papers:
   + GFW
   + Evasion (Geneva, VPNs)
 
+Practical assignments:
+  + Mitnick attack
+  + Kaminsky attack
+
 Most interesting papers:
   + Off-Path TCP Exploits: Global Rate Limit Considered Dangerous
   + Off-Path TCP Exploits of the Mixed IPID Assignment
@@ -99,6 +106,7 @@ Most interesting papers:
   + Detection, Classification, and Analysis of Inter-Domain Traffic with Spoofed Source IP Addresses
   + An End-to-End Measurement of Certificate Revocation in the Web’s PKI
   + Geneva: Evolving Censorship Evasion Strategies
+
 </details>
 
 
@@ -120,6 +128,8 @@ Most interesting papers:
 - Automatic data structure recovery
 - Symbolic execution
 - Lifters
+
+Practical assignments on the topics seen during the lectures.
 
 </details>
 
@@ -155,6 +165,11 @@ Most interesting papers:
 - PUFs
 - LWE
 
+Practical assignments:
+  + Katan and Rectangle ciphers in RISC-V assembly
+  + Present cipher in Verilog with parity check
+  + Template attack against AES cipher
+
 Most interesting papers:
   + Atomic-AES: A Compact Implementation of the AES Encryption/Decryption Core
   + Pushing the Limits: A Very Compact and a Threshold Implementation of AES
@@ -179,9 +194,10 @@ Project:
  - Proposed new improvements to our solution (Separate coverage and state map).
 
 Papers:
-  - IJON: Exploring Deep State Spaces via Fuzzing
-  - Stateful Greybox Fuzzing (SGFuzz)
-  - Fuzzers for Stateful Systems: Survey and Research Directions
+
+ - IJON: Exploring Deep State Spaces via Fuzzing
+ - Stateful Greybox Fuzzing (SGFuzz)
+ - Fuzzers for Stateful Systems: Survey and Research Directions
 
 </details>
 
@@ -320,6 +336,8 @@ Ethics And Morality in Security and AI:
   + Distributed computing (Workers, Remote channels, Spawn/Fetch)
   + MPI.jl
 
+Practical assignment: Parallel Floyd's algorithm in Julia with MPI.
+
 </details>
 
 ### Dynamic Programming and Reinforcement Learning
@@ -361,6 +379,13 @@ Ethics And Morality in Security and AI:
 - Deep Learning
 - Q-Learning
 - Policy Gradient methods
+
+Practical assignments:
+
+  - Stochastic knapsack problem
+  - Markov Decision process
+  - Connect 4 solver with MCTS
+  - Maze solver with Q-Learning
 
 </details>
 
