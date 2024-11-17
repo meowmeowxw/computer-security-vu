@@ -214,6 +214,43 @@ Bonus Assignments:
 
 </details>
 
+### Hardware Security
+
+<details>
+<summary>Content:</summary>
+
+- DRAM
+  + Organization (Channel, DIMM, Rank, Chip, Bank, Row/Column)
+  + Row Buffer
+  + Open/Closed Row Policy
+  + DRAM Address Mapping
+  + Side-channel attacks
+  + Rowhammer and mitigations
+- CPUs:
+  + Caches:
+    * Levels
+    * Inclusivity
+    * Indexing and Tagging
+    * Sets in L1, L2, L3
+    * Flush+Reload
+  + Meltdown
+  + Spectre-v1
+  + Mitigating Transient Execution Attacks
+  + Spectre-v2:
+    * BTI
+    * Aliasing
+    * Bypassing eIBRS
+    * Retbleed
+    * Inception
+  + Advanced Cache Attacks:
+    * Building eviction sets
+    * Prime+Probe
+    * Evict+Time
+    * TLB eviction
+    * Prime+Abort
+    * Prime+Scope
+</details>
+
 ### Systems Seminar
 
 <details>
@@ -465,7 +502,9 @@ Practical assignments:
   - Connect 4 solver with MCTS
   - Maze solver with Q-Learning
 
-## Advanced Machine Learning
+</details>
+
+### Advanced Machine Learning
 
 <details>
 <summary>Content:</summary>
