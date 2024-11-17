@@ -1,6 +1,6 @@
 # VU Amsterdam - Computer Security
 
-## Security Courses
+## Mandatory Courses
 
 ### Software Security
 
@@ -54,6 +54,8 @@ Most interesting papers:
 </details>
 
 ### Network Security
+
+(Not mandatory from 2024)
 
 <details>
 <summary>Content:</summary>
@@ -133,6 +135,141 @@ Practical assignments on the topics seen during the lectures.
 
 </details>
 
+### Advanced Operating Systems
+
+<details>
+<summary>Content:</summary>
+
+- Boot process and 2-stage bootloader
+- Memory Management:
+  + UMA vs NUMA
+  + Nodes, Zones, Pages
+  + Allocators: Memblock, Buddy, Slab, vmalloc
+  + Page tables:
+    * Initialization
+    * MMU
+    * Walk
+    * Permissions
+    * Security
+    * TLB
+    * KASLR
+    * Huge Pages
+- User mode & Interrupts:
+  + GDT
+  + IDT
+  + TSS
+  + Priviliges
+  + KPTI
+  + ASLR
+  + System Calls
+  + VDSO
+- Paging:
+  + Page fault handling (Kernel vs User)
+  + VMAs
+  + Memory mappings
+  + Transparent Huge Pages (THP)
+- Multiprocess:
+  + fork(), exec()
+  + COW
+  + Time Management:
+    * Real Time Clock
+    * HPET
+    * APIC
+  + Schedulers:
+    * O(1)
+    * CFS
+  + IPC:
+    * System V vs POSIX
+    * Shared Memory
+    * Semaphores
+    * Message Queues
+    * tmpfs
+- Multicore
+  + APIC, ACPI, RSDP, MADT, IPIs
+  + Starting APs
+  + Kernel locking (Fine grained vs Biglock)
+  + Spinlock, Mutexes, RCU
+  + Bottom Halves, SoftIRQs, Tasklets
+- Page Reclaiming:
+  + Memory pressure and page reclaiming
+  + Cache shrinking
+  + OOM killing
+  + Swapping
+  + Compression (zram, zswap, zcache)
+  + Deduplication (KSM)
+
+Practical Assignments:
+
+Build a multicore multitask fine grained locked kernel based on OpenLSD for x86-64.
+
+Bonus Assignments:
+
+1. Security sanitizers for buddy allocator (page guard, UAF/double free detection)
+2. Huge Pages support
+3. KPTI
+4. Vsyscall
+5. exec() syscall, zero page deduplication
+6. Kernel threads, core hotplug, sched affinity
+7. User space ASAN
+
+</details>
+
+### Systems Seminar
+
+<details>
+<summary>Content:</summary>
+
+- Reviewed papers:
+   + Hello Bytes, Bye Blocks: PCIe Storage Meets Compute Express Link for Memory Expansion
+   + Direct Access, High-Performance Memory Disaggregation with DirectCXL
+   + Hybrid Execution: Combining Ahead-of-Time and Just-in-Time Compilation, VMIL
+   + A Distributed and Hybrid Ground Station Network for Low Earth Orbit Satellites
+   + Tango or Square Dance? How Tightly Should we Integrate Network Functionality in Browsers?
+   + Sidecar: In-Network Performance Enhancements in the Age of Paranoid Transport Protocols
+- Artifact evaluation:
+   + Risotto: A Dynamic Binary Translator for Weak Memory Model Architectures
+
+</details>
+
+### Programming Large-Scale Parallel Systems
+
+<details>
+<summary>Content:</summary>
+
+- Processors Topologies (Mesh, Tree, Hypercube)
+- Parallel Machines (Processor arrays, GPUs, NUMA, DSM)
+- Parallel Algorithms:
+  + Matrix Multiplication
+  + Successive Over Relaxation
+  + All-pairs Shorts Paths
+  + Solving Linear Equations (Jacobi, Gaussian)
+  + Solving Partial Differential Equations (Conjucate gradient method)
+  + Traveling Salesperson Problem
+  + Barnes-Hut (with Cost model and Costzones)
+  + Transposition Driven Scheduling
+- Performance Metrics:
+  + Linear, Super linear speedup
+  + Amdahl's Law
+  + Weak and Strong scalability
+- MPI:
+  + Sync/Async
+  + Buffered/Unbuffered
+  + Ready
+  + Blocking/Non-Blocking
+  + Global Operations (Barrier, Bcast, Gather, Scatter, Reduce)
+- Julia:
+  + Tasks
+  + Sync/Async
+  + Channels
+  + Distributed computing (Workers, Remote channels, Spawn/Fetch)
+  + MPI.jl
+
+Practical assignment: Parallel Floyd's algorithm in Julia with MPI.
+
+</details>
+
+## Elective Courses
+
 ### Cryptographic Engineering
 
 <details>
@@ -200,8 +337,6 @@ Papers:
  - Fuzzers for Stateful Systems: Survey and Research Directions
 
 </details>
-
-## Research Oriented Courses
 
 ### Security and Machine Learning
 
@@ -283,63 +418,6 @@ Ethics And Morality in Security and AI:
  - Detection of brain activation in unresponsive patients with acute brain injury
 </details>
 
-
-### Systems Seminar
-
-<details>
-<summary>Content:</summary>
-
-- Reviewed papers:
-   + Hello Bytes, Bye Blocks: PCIe Storage Meets Compute Express Link for Memory Expansion
-   + Direct Access, High-Performance Memory Disaggregation with DirectCXL
-   + Hybrid Execution: Combining Ahead-of-Time and Just-in-Time Compilation, VMIL
-   + A Distributed and Hybrid Ground Station Network for Low Earth Orbit Satellites
-   + Tango or Square Dance? How Tightly Should we Integrate Network Functionality in Browsers?
-   + Sidecar: In-Network Performance Enhancements in the Age of Paranoid Transport Protocols
-- Artifact evaluation:
-   + Risotto: A Dynamic Binary Translator for Weak Memory Model Architectures
-
-</details>
-
-## CS Courses
-
-### Programming Large-Scale Parallel Systems
-
-<details>
-<summary>Content:</summary>
-
-- Processors Topologies (Mesh, Tree, Hypercube)
-- Parallel Machines (Processor arrays, GPUs, NUMA, DSM)
-- Parallel Algorithms:
-  + Matrix Multiplication
-  + Successive Over Relaxation
-  + All-pairs Shorts Paths
-  + Solving Linear Equations (Jacobi, Gaussian)
-  + Solving Partial Differential Equations (Conjucate gradient method)
-  + Traveling Salesperson Problem
-  + Barnes-Hut (with Cost model and Costzones)
-  + Transposition Driven Scheduling
-- Performance Metrics:
-  + Linear, Super linear speedup
-  + Amdahl's Law
-  + Weak and Strong scalability
-- MPI:
-  + Sync/Async
-  + Buffered/Unbuffered
-  + Ready
-  + Blocking/Non-Blocking
-  + Global Operations (Barrier, Bcast, Gather, Scatter, Reduce)
-- Julia:
-  + Tasks
-  + Sync/Async
-  + Channels
-  + Distributed computing (Workers, Remote channels, Spawn/Fetch)
-  + MPI.jl
-
-Practical assignment: Parallel Floyd's algorithm in Julia with MPI.
-
-</details>
-
 ### Dynamic Programming and Reinforcement Learning
 
 <details>
@@ -387,7 +465,64 @@ Practical assignments:
   - Connect 4 solver with MCTS
   - Maze solver with Q-Learning
 
+## Advanced Machine Learning
+
+<details>
+<summary>Content:</summary>
+
+- Introduction:
+  + Matrix properties
+  + Vector Calculus
+  + Normal Distribution
+- Curve fitting and linear regression:
+  + Overfitting
+  + Order
+  + Linear basis function
+  + Maximum Likelihood
+  + Moore-Penrose pseudo-inverse
+  + Regularization
+  + Gradient Descent
+- Bayesian linear regression
+- Classification:
+  + Discriminant functions
+  + K-class classifier
+  + Perceptron algorithm
+  + Continuos inputs
+  + Logisitc regression
+  + Iterative reweighted least squares
+- Neural Networks:
+  + Activation functions and non-linearity
+  + Training
+  + Backpropagation
+  + Regularization in NN
+  + Activation functions
+  + Invariances
+- Deep Neural Networks:
+  + Vanishing and exploding gradient problem
+  + Optimization algorithms (Momentum, RMSProp, Adam)
+  + Hyperparameter tuning
+- Convolutional Neural Networks:
+  + Filters
+  + Padding and stride
+  + Pooling
+  + Examples (LeNet, AlexNet, VGG, ResNet, Inception)
+  + Object detection
+  + Face recognition (Siamese network)
+  + Neural style transfer
+  + Visualizing deep layers
+- Recurrent Neural Networks:
+  + Named Entity Recognition
+  + Language Modeling
+  + GRU
+  + LSTM
+  + Word Embeddings
+  + Beam Search
+
 </details>
+
+</details>
+
+## Constrained Choice Course
 
 ### Distributed Algorithms
 
