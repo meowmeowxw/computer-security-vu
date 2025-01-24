@@ -1,8 +1,11 @@
 # VU Amsterdam - Computer Security
 
+An overview of the courses I took during my Master's in [Computer Security](https://vu.nl/en/education/master/computer-security/curriculum) at VU Amsterdam.
+Course content and assignments may vary both by academic year and by students' selection from available assignment options.
+
 ## Mandatory Courses
 
-### Software Security
+### [Software Security](https://studiegids.vu.nl/en/Master/2023-2024/computer-security/X_400127#/)
 
 <details>
 <summary>Content:</summary>
@@ -53,7 +56,7 @@ Most interesting papers:
 
 </details>
 
-### Network Security
+### [Network Security](https://studiegids.vu.nl/en/Master/2023-2024/computer-security/XM_0100#/)
 
 (Not mandatory from 2024)
 
@@ -112,7 +115,7 @@ Most interesting papers:
 </details>
 
 
-### Binary and Malware Analysis
+### [Binary and Malware Analysis](https://studiegids.vu.nl/en/Master/2023-2024/computer-security/X_405100#/)
 
 <details>
 <summary>Content:</summary>
@@ -135,7 +138,7 @@ Practical assignments on the topics seen during the lectures.
 
 </details>
 
-### Advanced Operating Systems
+### [Advanced Operating Systems](https://studiegids.vu.nl/en/Master/2024-2025/computer-security/XM_40014#/)
 
 <details>
 <summary>Content:</summary>
@@ -200,7 +203,7 @@ Practical assignments on the topics seen during the lectures.
 
 Practical Assignments:
 
-Build a multicore multitask fine grained locked kernel based on OpenLSD for x86-64.
+Build a multicore multitask fine grained locked kernel based on [OpenLSD](https://github.com/vusec/aos-labs-2024) for x86-64.
 
 Bonus Assignments:
 
@@ -214,7 +217,7 @@ Bonus Assignments:
 
 </details>
 
-### Hardware Security
+### [Hardware Security](https://studiegids.vu.nl/en/Master/2024-2025/computer-security/XM_40019#/)
 
 <details>
 <summary>Content:</summary>
@@ -249,9 +252,27 @@ Bonus Assignments:
     * TLB eviction
     * Prime+Abort
     * Prime+Scope
+- Embedded Systems:
+  + Communication protocols (I^2C, SPI, UART, etc) and Bus Attacks
+  + Firmware analysis
+  + ARM exploitation and defenses
+
+Assignments:
+
+- Implement partially "DRAMA: Exploiting DRAM Addressing for Cross-CPU Attacks" to leak information about the geometry of memory addresses in DRAM.
+- Flush+Reload, Meltdown and Meltdown+Spectre
+- Analyze embedded firmware and communication protocols
+- Rehosting, ROP and shellcode on ARM
+
+The final project for microarchitectural security was to implement a privilege escalation exploit by chaining three hardware vulnerabilities:
+
+- CrossTalk: Speculative Data Leaks Across Cores Are Real
+- Rage Against the Machine Clear: A Systematic Analysis of Machine Clears and Their Implications for Transient Execution Attacks
+- RIDL: Rogue In-Flight Data Load
+
 </details>
 
-### Systems Seminar
+### [Systems Seminar](https://studiegids.vu.nl/en/Master/2023-2024/computer-security/XM_0122#/)
 
 <details>
 <summary>Content:</summary>
@@ -268,7 +289,7 @@ Bonus Assignments:
 
 </details>
 
-### Programming Large-Scale Parallel Systems
+### [Programming Large-Scale Parallel Systems](https://studiegids.vu.nl/en/Master/2023-2024/computer-security/XM_40017#/)
 
 <details>
 <summary>Content:</summary>
@@ -307,7 +328,7 @@ Practical assignment: Parallel Floyd's algorithm in Julia with MPI.
 
 ## Elective Courses
 
-### Cryptographic Engineering
+### [Cryptographic Engineering](https://studiegids.uva.nl/xmlpages/page/2023-2024-en/search-course/course/110259)
 
 <details>
 <summary>Content:</summary>
@@ -355,7 +376,7 @@ Most interesting papers:
 
 </details>
 
-### Project Systems Testing
+### [Project Systems Testing](https://studiegids.vu.nl/en/vakken/2023-2024/X_405124#/)
 
 <details>
 <summary>Content:</summary>
@@ -375,7 +396,46 @@ Papers:
 
 </details>
 
-### Security and Machine Learning
+### [Deep Learning](https://dlvu.github.io/)
+
+<details>
+<summary>Content:</summary>
+
+- Introduction:
+  + Neural Networks
+  + Classification and Regression
+  + Autoencoders
+- Backpropagation (Scalar, Vector, Tensor)
+- CNNs and TCNNs
+- Tricks:
+  + Optimizers (Momentum, Adam)
+  + Weight initialization
+  + Residual connections
+  + Regularization
+- RNNs (GRU, LSTMs, ELMo)
+- VAEs:
+  + Latent variable models
+  + KL divergence
+  + MMD-VAE
+- Graphs:
+  + Embeddings
+  + GCNs
+  + Query embedding
+- Transformer architecture
+- Diffusion (Naive, Gaussian)
+- Generalization problem and Information Bottleneck
+- XAI
+
+Assignments:
+
+- Build Neural Network from scratch
+- Build a mini version of pytorch
+- RNNs
+- GNNs
+
+</details>
+
+### [Security and Machine Learning](https://studiegids.vu.nl/en/Master/2023-2024/computer-security/XM_0135#/)
 
 <details>
 <summary>Content:</summary>
@@ -398,7 +458,7 @@ Papers:
 
 ##### Papers
 
-This is a non-exhaustive list of papers that I read for the assignments,
+This is a non-exhaustive list of papers that I read/skimmed through for the assignments,
 provided by the professor or found by myself.
 There are other papers that we have analyzed during the lectures, and other topics
 that could be investigated for the assignments.
@@ -455,7 +515,7 @@ Ethics And Morality in Security and AI:
  - Detection of brain activation in unresponsive patients with acute brain injury
 </details>
 
-### Dynamic Programming and Reinforcement Learning
+### [Dynamic Programming and Reinforcement Learning](https://studiegids.vu.nl/en/Master/2023-2024/computer-security/XM_0093#/)
 
 <details>
 <summary>Content:</summary>
@@ -504,7 +564,7 @@ Practical assignments:
 
 </details>
 
-### Advanced Machine Learning
+### [Advanced Machine Learning](https://studiegids.vu.nl/en/vakken/2024-2025/XM_0010#/)
 
 <details>
 <summary>Content:</summary>
@@ -559,11 +619,33 @@ Practical assignments:
 
 </details>
 
+### [Performance of Networked Systems](https://studiegids.vu.nl/en/vakken/2024-2025/X_405105#/)
+
+<details>
+<summary>Content:</summary>
+
+- Networking principles
+- Performance Modeling:
+  + Poisson processes and properties
+  + Markov chains, equilibrium distributions
+  + Erlang-B model
+  + Multi-rate models and Kaufman/Roberts recursion
+- TCP/IP:
+  + QoS mechanisms for IP networks
+  + TCP (Slow Start, Flow Control, Congestion Control, Congestion Avoidance, Fast Recovery and Fast Retransmit)
+  + HTTP evolution
+- Mobile Networks:
+  + GSM
+  + GPRS 
+  + WiFi/802.11 (DCF 4-way handshake)
+  + Bianchi's model
+  + UMTS and Kelly's Loss Networks
+  + 4G and 5G
 </details>
 
 ## Constrained Choice Course
 
-### Distributed Algorithms
+### [Distributed Algorithms](https://studiegids.vu.nl/en/Master/2023-2024/computer-security/X_400211#/)
 
 <details>
 <summary>Content:</summary>
